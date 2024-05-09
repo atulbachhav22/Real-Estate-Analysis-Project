@@ -8,15 +8,15 @@ Data on over 150,000 residential home sales were exported from the Triangle MLS 
 
 ## Scope
 The scope of this project is to use python visualizations, and rudimentary machine learning through the time-series model "Prophet", to answer questions about Triangle NC real estate market trends in general, and to make predictions for a specificallly-defined subset of homes. The general market questions are as follows:
-    1. How does seasonality affect the volume of home sales?
-    2. How does seasonality affect the amount that individuals are paying over asking price (both as an absolute value and as a percentage of list price)?
-    3. How do mortgage rates affect the volume of home sales?
-    4. How do mortgage rates affect the difference between list price and sold price?
+1. How does seasonality affect the volume of home sales?
+1. How does seasonality affect the amount that individuals are paying over asking price (both as an absolute value and as a percentage of list price)?
+1. How do mortgage rates affect the volume of home sales?
+1. How do mortgage rates affect the difference between list price and sold price?
 
 Specific questions were answered which focused on comparable homes in the Raleigh area, with their criteria being, single-family detached homes, 3 beds, 2 baths, xxx square feet plus or minus 10%, xxxx acres:
-    1. Are we able to make a prediction for days on market based on list date?
-    2. Are we able to make a prediction for how far above list price someone should offer based on list date?
-    3. Are we able to make a prediction for days on market based on mortgage rates?
-    4. Are we able to make a prediction for how far above list price someone should offer based on mortgage rates?
+1. Are we able to make a prediction for days on market based on list date?
+2. Are we able to make a prediction for how far above list price someone should offer based on list date?
+3. Are we able to make a prediction for days on market based on mortgage rates?
+4. Are we able to make a prediction for how far above list price someone should offer based on mortgage rates?
     
 ## Results
