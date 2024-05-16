@@ -40,9 +40,9 @@ Now we focus on two specific NC cities: Raleigh and Fayetteville. These were cho
 
 When examining days on market, we see that the days on market in general is pretty comparable between Raleigh and Fayetteville for all seasons except the Spring. Raleigh on average does have slightly lower days on market than Fayettevile, but in the spring market shows a pretty significant difference of roughly five days less.
 
-![Raleigh: DOM vs Season](Images/raleigh_DOM_vs_season-2.PNG)
+![Raleigh: DOM vs Season](Images/raleigh_DOM_vs_season-2.png)
 
-![Fayetteville: DOM vs Season](Images/fayetteville_DOM_vs_season-2.PNG)
+![Fayetteville: DOM vs Season](Images/fayetteville_DOM_vs_season-2.png)
 
 The delta between list and sale price of properties is a bit more telling when comparing between the two, as Fayetteville shows a relatively moderate delta, with a max of 3k over asking during the spring and a slight negative delta in the fall. Raleigh, on the other hand, shows people consistantly paying over asking, with an average delta of roughly 18k during the spring and a minimum of about 2k in the fall. This makes sense as Raleigh is a much hotter market, and bidding wars consistently push up prices, compelling individuals to offer significantly more than asking price. The price point is also higher in general and the buyers in this area tend to have more purchasing power, so naturally as a percentage of sales price, this leads to a larger delta.
 
@@ -52,9 +52,9 @@ The delta between list and sale price of properties is a bit more telling when c
 
 Next, we examine how mortgage rates have affected the real estate market in Raleigh and Fayetteville. We see that, for Raleigh, after accounting for seasonality, there is an obvious correlation between days on market and mortgage rates, with DOM spiking from roughly 10 days to 30 after the mortgage rate spike in 2022. Fayetteville, however, does not show a significant difference here, which may be due to the lower average price point, since even with the higher rates the monthly payment may still be affordable for individuals. In addition to this, there is a considerable amount of section 8 housing in Fayetteville compared to Raleigh, which makes the living more affordable, and so people are less likely to be deterred from purchasing.
 
-![Raleigh: DOM vs Rates](Images/raleigh_DOM_vs_rates.png)
+![Raleigh: DOM vs Rates](Images/raleigh_DOM_vs_rates.PNG)
 
-![Fayetteville: DOM vs Rates](Images/fayetteville_DOM_vs_rates.png)
+![Fayetteville: DOM vs Rates](Images/fayetteville_DOM_vs_rates.PNG)
 
 Lastly, when observing the trend in the list-sale price delta relative to mortgage rates, we do indeed see an inverse correlation. As expected, as rates increased, people in general became less willing to offer a significant amount over asking price. While you see the same trend in both cases, one notes that this is still significantly affected by seasonality, with the average spring/summer price delta for Raleigh still reaching over 20k. The delta for Fayetteville again is more moderate, with sale price hovering right around list, and even slightly below after the mortgage rate increase in 2022.
 
