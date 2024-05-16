@@ -1,17 +1,17 @@
 # Real-Estate-Analysis-Project
 
 ## Overview
-The overarching goal of this project is to use post-pandemic MLS real estate sales data to illustrate market trends. We will be foucsing on both the Traingle real estate market at large, as well as a couple individual cities such as Raleigh and Fayetteville. Specifically, we will be examining how variables such as seasonality and mortgage rates affect the difference between list and sale prices, days on market, and volume of home sales.
+The overarching goal of this project is to use post-pandemic MLS real estate sales data to illustrate market trends. We will be foucsing on both the Traingle real estate market at large, as well as a couple individual cities such as Raleigh and Fayetteville. Specifically, we will be examining how variables such as seasonality and mortgage rates affect the difference between list and sale prices, days on market, and volume of homes listed.
 
 ## Installation
 Begin by cloning the repo "Real-Estate-Analysis-Project" from github. This contains all the files required to run the analysis. Once cloned, the analysis code is entirely contained in the jupyter notebook "real-estate-analysis_updated.ipynb". All real estate data .csv files, as well as the data on mortgage rates, are found within the "Data" folder. 
 
 ## Data
-Data on over 150,000 residential home sales were exported from the Triangle MLS to be used for this analysis. Data fields included the following: MLS#, Class, Propety Type, Address, City, Zip Code, Neighborhood, Subdivision, Bedrooms, Baths, Square Footage, Acreage, Year Built, List Date, Closing Date, Days on Market, List Price, and Sold Price. Data was engineered as needed, such as ensuring that we only examine trends for comparable properties. Example data is shown below:
+Data on over 150,000 residential home sales were exported from the Triangle MLS to be used for this analysis. Data fields included the following: MLS#, Class, Property Type, Address, City, Zip Code, Neighborhood, Subdivision, Bedrooms, Baths, Square Footage, Acreage, Year Built, List Date, Closing Date, Days on Market, List Price, and Sold Price. Data was engineered as needed, such as ensuring that we only examine trends for comparable properties. Example data is shown below:
 
 ![Example Real Estate Data](Images/example_data.PNG)
 
-Superfluous columns with high NaN occurances were dropped, such as "Neighborhood" and "Subdivision". Acreage was listed as a given range if the property's actual acreage fell within that range, and this was split into two separate columns "Acres min" and "Acres max" which utilize the min and max values of the given range. For certain questions, all cities that contained less than 10 total data points/sales were dropped, as many are not typically included in the Triangle MLS market and so this data could skew results. Aggregate market data was examined alongside the individual cities of Raleigh and Fayetteville in order to compare trends. Raleigh and Fayettville were chosen to illustrate the difference in trends between the high and low price points in NC.
+Columns with majority NaN or null occurrences were dropped, such as "Neighborhood" and "Subdivision". Acreage was listed as a given range if the property's actual acreage fell within that range, and this was split into two separate columns "Acres min" and "Acres max" which utilize the min and max values of the given range. Aggregate market data was examined alongside the individual cities of Raleigh and Fayetteville in order to compare trends. Raleigh and Fayettville were chosen to illustrate the difference in trends between the high and low price points in NC.
 
 ## Scope
 The scope of this project is to use python visualizations, and rudimentary machine learning through the time-series model "Prophet", to answer questions about Triangle NC real estate market trends in general, and to make predictions for a specificallly-defined subset of homes. The general market questions are as follows:
